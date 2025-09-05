@@ -13,4 +13,12 @@ public final class Tools: NSObject {
     fileprivate func six(_ s: String) -> String {
         return "six - \(s)"
     }
+    
+    public func swiftStr(_ s: String) -> String {
+        return "swift - \(s)"
+    }
+    
+    public func device(dw: @escaping (()->Void)) {
+        dw()
+    }
 }
