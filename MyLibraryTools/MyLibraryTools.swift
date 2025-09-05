@@ -4,7 +4,7 @@
 
 import UIKit
 
-class Tools: NSObject {
+public final class Tools: NSObject {
     
     func toolstr() -> String {
         return "Tools"
