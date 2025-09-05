@@ -6,7 +6,11 @@ import UIKit
 
 public final class Tools: NSObject {
     
-    func toolstr() -> String {
+    fileprivate func toolstr() -> String {
         return "Tools"
+    }
+    
+    fileprivate func six(_ s: String) -> String {
+        return "six - \(s)"
     }
 }
